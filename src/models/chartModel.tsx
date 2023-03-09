@@ -1,0 +1,20 @@
+export interface chartModel {
+        m: number,
+        f: number,
+        formulaName: string,
+        selectedCrypto: any,
+        selectedMetric: string,
+        resolution: string,
+        customFormula: { name: string, days: number },
+        formulaInput: string,
+        formulaInputArr: any,
+        singleFormulaInputArr: any,
+        scale: string,
+        color: string,
+        yAxis: number,
+        chartStyle: string,
+        Visibility: boolean,
+        zoom: string,
+        data: null,
+        formulaClicked: boolean
+}
